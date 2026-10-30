@@ -1,0 +1,1626 @@
+{
+  "total": 90,
+  "failures": 0,
+  "results": [
+    {
+      "resolution": "1024x600",
+      "scale": 1,
+      "tab": "focus",
+      "pass": true,
+      "screenshot": "1024x600_s1_focus.png",
+      "check": {
+        "tab": "focus",
+        "viewportW": 1024,
+        "viewportH": 600,
+        "islandBottom": 353.515625,
+        "islandHeight": 353.515625,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 251
+      }
+    },
+    {
+      "resolution": "1024x600",
+      "scale": 1,
+      "tab": "tasks",
+      "pass": true,
+      "screenshot": "1024x600_s1_tasks.png",
+      "check": {
+        "tab": "tasks",
+        "viewportW": 1024,
+        "viewportH": 600,
+        "islandBottom": 339.90625,
+        "islandHeight": 339.90625,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 522
+      }
+    },
+    {
+      "resolution": "1024x600",
+      "scale": 1,
+      "tab": "habits",
+      "pass": true,
+      "screenshot": "1024x600_s1_habits.png",
+      "check": {
+        "tab": "habits",
+        "viewportW": 1024,
+        "viewportH": 600,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 435
+      }
+    },
+    {
+      "resolution": "1024x600",
+      "scale": 1,
+      "tab": "wellbeing",
+      "pass": true,
+      "screenshot": "1024x600_s1_wellbeing.png",
+      "check": {
+        "tab": "wellbeing",
+        "viewportW": 1024,
+        "viewportH": 600,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 977
+      }
+    },
+    {
+      "resolution": "1024x600",
+      "scale": 1,
+      "tab": "insights",
+      "pass": true,
+      "screenshot": "1024x600_s1_insights.png",
+      "check": {
+        "tab": "insights",
+        "viewportW": 1024,
+        "viewportH": 600,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 627
+      }
+    },
+    {
+      "resolution": "1024x600",
+      "scale": 1,
+      "tab": "settings",
+      "pass": true,
+      "screenshot": "1024x600_s1_settings.png",
+      "check": {
+        "tab": "settings",
+        "viewportW": 1024,
+        "viewportH": 600,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 1547
+      }
+    },
+    {
+      "resolution": "1024x600",
+      "scale": 1.25,
+      "tab": "focus",
+      "pass": true,
+      "screenshot": "1024x600_s1.25_focus.png",
+      "check": {
+        "tab": "focus",
+        "viewportW": 1024,
+        "viewportH": 600,
+        "islandBottom": 353.484375,
+        "islandHeight": 353.484375,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 251
+      }
+    },
+    {
+      "resolution": "1024x600",
+      "scale": 1.25,
+      "tab": "tasks",
+      "pass": true,
+      "screenshot": "1024x600_s1.25_tasks.png",
+      "check": {
+        "tab": "tasks",
+        "viewportW": 1024,
+        "viewportH": 600,
+        "islandBottom": 339.921875,
+        "islandHeight": 339.921875,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 522
+      }
+    },
+    {
+      "resolution": "1024x600",
+      "scale": 1.25,
+      "tab": "habits",
+      "pass": true,
+      "screenshot": "1024x600_s1.25_habits.png",
+      "check": {
+        "tab": "habits",
+        "viewportW": 1024,
+        "viewportH": 600,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 435
+      }
+    },
+    {
+      "resolution": "1024x600",
+      "scale": 1.25,
+      "tab": "wellbeing",
+      "pass": true,
+      "screenshot": "1024x600_s1.25_wellbeing.png",
+      "check": {
+        "tab": "wellbeing",
+        "viewportW": 1024,
+        "viewportH": 600,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 977
+      }
+    },
+    {
+      "resolution": "1024x600",
+      "scale": 1.25,
+      "tab": "insights",
+      "pass": true,
+      "screenshot": "1024x600_s1.25_insights.png",
+      "check": {
+        "tab": "insights",
+        "viewportW": 1024,
+        "viewportH": 600,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 627
+      }
+    },
+    {
+      "resolution": "1024x600",
+      "scale": 1.25,
+      "tab": "settings",
+      "pass": true,
+      "screenshot": "1024x600_s1.25_settings.png",
+      "check": {
+        "tab": "settings",
+        "viewportW": 1024,
+        "viewportH": 600,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 1547
+      }
+    },
+    {
+      "resolution": "1024x600",
+      "scale": 1.5,
+      "tab": "focus",
+      "pass": true,
+      "screenshot": "1024x600_s1.5_focus.png",
+      "check": {
+        "tab": "focus",
+        "viewportW": 1024,
+        "viewportH": 600,
+        "islandBottom": 352.859375,
+        "islandHeight": 352.859375,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 251
+      }
+    },
+    {
+      "resolution": "1024x600",
+      "scale": 1.5,
+      "tab": "tasks",
+      "pass": true,
+      "screenshot": "1024x600_s1.5_tasks.png",
+      "check": {
+        "tab": "tasks",
+        "viewportW": 1024,
+        "viewportH": 600,
+        "islandBottom": 339.9375,
+        "islandHeight": 339.9375,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 522
+      }
+    },
+    {
+      "resolution": "1024x600",
+      "scale": 1.5,
+      "tab": "habits",
+      "pass": true,
+      "screenshot": "1024x600_s1.5_habits.png",
+      "check": {
+        "tab": "habits",
+        "viewportW": 1024,
+        "viewportH": 600,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 435
+      }
+    },
+    {
+      "resolution": "1024x600",
+      "scale": 1.5,
+      "tab": "wellbeing",
+      "pass": true,
+      "screenshot": "1024x600_s1.5_wellbeing.png",
+      "check": {
+        "tab": "wellbeing",
+        "viewportW": 1024,
+        "viewportH": 600,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 977
+      }
+    },
+    {
+      "resolution": "1024x600",
+      "scale": 1.5,
+      "tab": "insights",
+      "pass": true,
+      "screenshot": "1024x600_s1.5_insights.png",
+      "check": {
+        "tab": "insights",
+        "viewportW": 1024,
+        "viewportH": 600,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 627
+      }
+    },
+    {
+      "resolution": "1024x600",
+      "scale": 1.5,
+      "tab": "settings",
+      "pass": true,
+      "screenshot": "1024x600_s1.5_settings.png",
+      "check": {
+        "tab": "settings",
+        "viewportW": 1024,
+        "viewportH": 600,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 1547
+      }
+    },
+    {
+      "resolution": "1280x720",
+      "scale": 1,
+      "tab": "focus",
+      "pass": true,
+      "screenshot": "1280x720_s1_focus.png",
+      "check": {
+        "tab": "focus",
+        "viewportW": 1280,
+        "viewportH": 720,
+        "islandBottom": 352.890625,
+        "islandHeight": 352.890625,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 251
+      }
+    },
+    {
+      "resolution": "1280x720",
+      "scale": 1,
+      "tab": "tasks",
+      "pass": true,
+      "screenshot": "1280x720_s1_tasks.png",
+      "check": {
+        "tab": "tasks",
+        "viewportW": 1280,
+        "viewportH": 720,
+        "islandBottom": 339.90625,
+        "islandHeight": 339.90625,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 522
+      }
+    },
+    {
+      "resolution": "1280x720",
+      "scale": 1,
+      "tab": "habits",
+      "pass": true,
+      "screenshot": "1280x720_s1_habits.png",
+      "check": {
+        "tab": "habits",
+        "viewportW": 1280,
+        "viewportH": 720,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 435
+      }
+    },
+    {
+      "resolution": "1280x720",
+      "scale": 1,
+      "tab": "wellbeing",
+      "pass": true,
+      "screenshot": "1280x720_s1_wellbeing.png",
+      "check": {
+        "tab": "wellbeing",
+        "viewportW": 1280,
+        "viewportH": 720,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 977
+      }
+    },
+    {
+      "resolution": "1280x720",
+      "scale": 1,
+      "tab": "insights",
+      "pass": true,
+      "screenshot": "1280x720_s1_insights.png",
+      "check": {
+        "tab": "insights",
+        "viewportW": 1280,
+        "viewportH": 720,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 627
+      }
+    },
+    {
+      "resolution": "1280x720",
+      "scale": 1,
+      "tab": "settings",
+      "pass": true,
+      "screenshot": "1280x720_s1_settings.png",
+      "check": {
+        "tab": "settings",
+        "viewportW": 1280,
+        "viewportH": 720,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 1547
+      }
+    },
+    {
+      "resolution": "1280x720",
+      "scale": 1.25,
+      "tab": "focus",
+      "pass": true,
+      "screenshot": "1280x720_s1.25_focus.png",
+      "check": {
+        "tab": "focus",
+        "viewportW": 1280,
+        "viewportH": 720,
+        "islandBottom": 352.859375,
+        "islandHeight": 352.859375,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 251
+      }
+    },
+    {
+      "resolution": "1280x720",
+      "scale": 1.25,
+      "tab": "tasks",
+      "pass": true,
+      "screenshot": "1280x720_s1.25_tasks.png",
+      "check": {
+        "tab": "tasks",
+        "viewportW": 1280,
+        "viewportH": 720,
+        "islandBottom": 339.9375,
+        "islandHeight": 339.9375,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 522
+      }
+    },
+    {
+      "resolution": "1280x720",
+      "scale": 1.25,
+      "tab": "habits",
+      "pass": true,
+      "screenshot": "1280x720_s1.25_habits.png",
+      "check": {
+        "tab": "habits",
+        "viewportW": 1280,
+        "viewportH": 720,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 435
+      }
+    },
+    {
+      "resolution": "1280x720",
+      "scale": 1.25,
+      "tab": "wellbeing",
+      "pass": true,
+      "screenshot": "1280x720_s1.25_wellbeing.png",
+      "check": {
+        "tab": "wellbeing",
+        "viewportW": 1280,
+        "viewportH": 720,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 977
+      }
+    },
+    {
+      "resolution": "1280x720",
+      "scale": 1.25,
+      "tab": "insights",
+      "pass": true,
+      "screenshot": "1280x720_s1.25_insights.png",
+      "check": {
+        "tab": "insights",
+        "viewportW": 1280,
+        "viewportH": 720,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 627
+      }
+    },
+    {
+      "resolution": "1280x720",
+      "scale": 1.25,
+      "tab": "settings",
+      "pass": true,
+      "screenshot": "1280x720_s1.25_settings.png",
+      "check": {
+        "tab": "settings",
+        "viewportW": 1280,
+        "viewportH": 720,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 1547
+      }
+    },
+    {
+      "resolution": "1280x720",
+      "scale": 1.5,
+      "tab": "focus",
+      "pass": true,
+      "screenshot": "1280x720_s1.5_focus.png",
+      "check": {
+        "tab": "focus",
+        "viewportW": 1280,
+        "viewportH": 720,
+        "islandBottom": 353.625,
+        "islandHeight": 353.625,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 251
+      }
+    },
+    {
+      "resolution": "1280x720",
+      "scale": 1.5,
+      "tab": "tasks",
+      "pass": true,
+      "screenshot": "1280x720_s1.5_tasks.png",
+      "check": {
+        "tab": "tasks",
+        "viewportW": 1280,
+        "viewportH": 720,
+        "islandBottom": 339.9375,
+        "islandHeight": 339.9375,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 522
+      }
+    },
+    {
+      "resolution": "1280x720",
+      "scale": 1.5,
+      "tab": "habits",
+      "pass": true,
+      "screenshot": "1280x720_s1.5_habits.png",
+      "check": {
+        "tab": "habits",
+        "viewportW": 1280,
+        "viewportH": 720,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 435
+      }
+    },
+    {
+      "resolution": "1280x720",
+      "scale": 1.5,
+      "tab": "wellbeing",
+      "pass": true,
+      "screenshot": "1280x720_s1.5_wellbeing.png",
+      "check": {
+        "tab": "wellbeing",
+        "viewportW": 1280,
+        "viewportH": 720,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 977
+      }
+    },
+    {
+      "resolution": "1280x720",
+      "scale": 1.5,
+      "tab": "insights",
+      "pass": true,
+      "screenshot": "1280x720_s1.5_insights.png",
+      "check": {
+        "tab": "insights",
+        "viewportW": 1280,
+        "viewportH": 720,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 627
+      }
+    },
+    {
+      "resolution": "1280x720",
+      "scale": 1.5,
+      "tab": "settings",
+      "pass": true,
+      "screenshot": "1280x720_s1.5_settings.png",
+      "check": {
+        "tab": "settings",
+        "viewportW": 1280,
+        "viewportH": 720,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 1547
+      }
+    },
+    {
+      "resolution": "1366x768",
+      "scale": 1,
+      "tab": "focus",
+      "pass": true,
+      "screenshot": "1366x768_s1_focus.png",
+      "check": {
+        "tab": "focus",
+        "viewportW": 1366,
+        "viewportH": 768,
+        "islandBottom": 353.5,
+        "islandHeight": 353.5,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 251
+      }
+    },
+    {
+      "resolution": "1366x768",
+      "scale": 1,
+      "tab": "tasks",
+      "pass": true,
+      "screenshot": "1366x768_s1_tasks.png",
+      "check": {
+        "tab": "tasks",
+        "viewportW": 1366,
+        "viewportH": 768,
+        "islandBottom": 339.90625,
+        "islandHeight": 339.90625,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 522
+      }
+    },
+    {
+      "resolution": "1366x768",
+      "scale": 1,
+      "tab": "habits",
+      "pass": true,
+      "screenshot": "1366x768_s1_habits.png",
+      "check": {
+        "tab": "habits",
+        "viewportW": 1366,
+        "viewportH": 768,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 435
+      }
+    },
+    {
+      "resolution": "1366x768",
+      "scale": 1,
+      "tab": "wellbeing",
+      "pass": true,
+      "screenshot": "1366x768_s1_wellbeing.png",
+      "check": {
+        "tab": "wellbeing",
+        "viewportW": 1366,
+        "viewportH": 768,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 977
+      }
+    },
+    {
+      "resolution": "1366x768",
+      "scale": 1,
+      "tab": "insights",
+      "pass": true,
+      "screenshot": "1366x768_s1_insights.png",
+      "check": {
+        "tab": "insights",
+        "viewportW": 1366,
+        "viewportH": 768,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 627
+      }
+    },
+    {
+      "resolution": "1366x768",
+      "scale": 1,
+      "tab": "settings",
+      "pass": true,
+      "screenshot": "1366x768_s1_settings.png",
+      "check": {
+        "tab": "settings",
+        "viewportW": 1366,
+        "viewportH": 768,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 1547
+      }
+    },
+    {
+      "resolution": "1366x768",
+      "scale": 1.25,
+      "tab": "focus",
+      "pass": true,
+      "screenshot": "1366x768_s1.25_focus.png",
+      "check": {
+        "tab": "focus",
+        "viewportW": 1366,
+        "viewportH": 768,
+        "islandBottom": 352.84375,
+        "islandHeight": 352.84375,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 251
+      }
+    },
+    {
+      "resolution": "1366x768",
+      "scale": 1.25,
+      "tab": "tasks",
+      "pass": true,
+      "screenshot": "1366x768_s1.25_tasks.png",
+      "check": {
+        "tab": "tasks",
+        "viewportW": 1366,
+        "viewportH": 768,
+        "islandBottom": 339.9375,
+        "islandHeight": 339.9375,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 522
+      }
+    },
+    {
+      "resolution": "1366x768",
+      "scale": 1.25,
+      "tab": "habits",
+      "pass": true,
+      "screenshot": "1366x768_s1.25_habits.png",
+      "check": {
+        "tab": "habits",
+        "viewportW": 1366,
+        "viewportH": 768,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 435
+      }
+    },
+    {
+      "resolution": "1366x768",
+      "scale": 1.25,
+      "tab": "wellbeing",
+      "pass": true,
+      "screenshot": "1366x768_s1.25_wellbeing.png",
+      "check": {
+        "tab": "wellbeing",
+        "viewportW": 1366,
+        "viewportH": 768,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 977
+      }
+    },
+    {
+      "resolution": "1366x768",
+      "scale": 1.25,
+      "tab": "insights",
+      "pass": true,
+      "screenshot": "1366x768_s1.25_insights.png",
+      "check": {
+        "tab": "insights",
+        "viewportW": 1366,
+        "viewportH": 768,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 627
+      }
+    },
+    {
+      "resolution": "1366x768",
+      "scale": 1.25,
+      "tab": "settings",
+      "pass": true,
+      "screenshot": "1366x768_s1.25_settings.png",
+      "check": {
+        "tab": "settings",
+        "viewportW": 1366,
+        "viewportH": 768,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 1547
+      }
+    },
+    {
+      "resolution": "1366x768",
+      "scale": 1.5,
+      "tab": "focus",
+      "pass": true,
+      "screenshot": "1366x768_s1.5_focus.png",
+      "check": {
+        "tab": "focus",
+        "viewportW": 1366,
+        "viewportH": 768,
+        "islandBottom": 352.859375,
+        "islandHeight": 352.859375,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 251
+      }
+    },
+    {
+      "resolution": "1366x768",
+      "scale": 1.5,
+      "tab": "tasks",
+      "pass": true,
+      "screenshot": "1366x768_s1.5_tasks.png",
+      "check": {
+        "tab": "tasks",
+        "viewportW": 1366,
+        "viewportH": 768,
+        "islandBottom": 339.9375,
+        "islandHeight": 339.9375,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 522
+      }
+    },
+    {
+      "resolution": "1366x768",
+      "scale": 1.5,
+      "tab": "habits",
+      "pass": true,
+      "screenshot": "1366x768_s1.5_habits.png",
+      "check": {
+        "tab": "habits",
+        "viewportW": 1366,
+        "viewportH": 768,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 435
+      }
+    },
+    {
+      "resolution": "1366x768",
+      "scale": 1.5,
+      "tab": "wellbeing",
+      "pass": true,
+      "screenshot": "1366x768_s1.5_wellbeing.png",
+      "check": {
+        "tab": "wellbeing",
+        "viewportW": 1366,
+        "viewportH": 768,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 977
+      }
+    },
+    {
+      "resolution": "1366x768",
+      "scale": 1.5,
+      "tab": "insights",
+      "pass": true,
+      "screenshot": "1366x768_s1.5_insights.png",
+      "check": {
+        "tab": "insights",
+        "viewportW": 1366,
+        "viewportH": 768,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 627
+      }
+    },
+    {
+      "resolution": "1366x768",
+      "scale": 1.5,
+      "tab": "settings",
+      "pass": true,
+      "screenshot": "1366x768_s1.5_settings.png",
+      "check": {
+        "tab": "settings",
+        "viewportW": 1366,
+        "viewportH": 768,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 1547
+      }
+    },
+    {
+      "resolution": "1536x864",
+      "scale": 1,
+      "tab": "focus",
+      "pass": true,
+      "screenshot": "1536x864_s1_focus.png",
+      "check": {
+        "tab": "focus",
+        "viewportW": 1536,
+        "viewportH": 864,
+        "islandBottom": 353.484375,
+        "islandHeight": 353.484375,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 251
+      }
+    },
+    {
+      "resolution": "1536x864",
+      "scale": 1,
+      "tab": "tasks",
+      "pass": true,
+      "screenshot": "1536x864_s1_tasks.png",
+      "check": {
+        "tab": "tasks",
+        "viewportW": 1536,
+        "viewportH": 864,
+        "islandBottom": 339.90625,
+        "islandHeight": 339.90625,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 522
+      }
+    },
+    {
+      "resolution": "1536x864",
+      "scale": 1,
+      "tab": "habits",
+      "pass": true,
+      "screenshot": "1536x864_s1_habits.png",
+      "check": {
+        "tab": "habits",
+        "viewportW": 1536,
+        "viewportH": 864,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 435
+      }
+    },
+    {
+      "resolution": "1536x864",
+      "scale": 1,
+      "tab": "wellbeing",
+      "pass": true,
+      "screenshot": "1536x864_s1_wellbeing.png",
+      "check": {
+        "tab": "wellbeing",
+        "viewportW": 1536,
+        "viewportH": 864,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 977
+      }
+    },
+    {
+      "resolution": "1536x864",
+      "scale": 1,
+      "tab": "insights",
+      "pass": true,
+      "screenshot": "1536x864_s1_insights.png",
+      "check": {
+        "tab": "insights",
+        "viewportW": 1536,
+        "viewportH": 864,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 627
+      }
+    },
+    {
+      "resolution": "1536x864",
+      "scale": 1,
+      "tab": "settings",
+      "pass": true,
+      "screenshot": "1536x864_s1_settings.png",
+      "check": {
+        "tab": "settings",
+        "viewportW": 1536,
+        "viewportH": 864,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 1547
+      }
+    },
+    {
+      "resolution": "1536x864",
+      "scale": 1.25,
+      "tab": "focus",
+      "pass": true,
+      "screenshot": "1536x864_s1.25_focus.png",
+      "check": {
+        "tab": "focus",
+        "viewportW": 1536,
+        "viewportH": 864,
+        "islandBottom": 353.515625,
+        "islandHeight": 353.515625,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 251
+      }
+    },
+    {
+      "resolution": "1536x864",
+      "scale": 1.25,
+      "tab": "tasks",
+      "pass": true,
+      "screenshot": "1536x864_s1.25_tasks.png",
+      "check": {
+        "tab": "tasks",
+        "viewportW": 1536,
+        "viewportH": 864,
+        "islandBottom": 339.953125,
+        "islandHeight": 339.953125,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 522
+      }
+    },
+    {
+      "resolution": "1536x864",
+      "scale": 1.25,
+      "tab": "habits",
+      "pass": true,
+      "screenshot": "1536x864_s1.25_habits.png",
+      "check": {
+        "tab": "habits",
+        "viewportW": 1536,
+        "viewportH": 864,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 435
+      }
+    },
+    {
+      "resolution": "1536x864",
+      "scale": 1.25,
+      "tab": "wellbeing",
+      "pass": true,
+      "screenshot": "1536x864_s1.25_wellbeing.png",
+      "check": {
+        "tab": "wellbeing",
+        "viewportW": 1536,
+        "viewportH": 864,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 977
+      }
+    },
+    {
+      "resolution": "1536x864",
+      "scale": 1.25,
+      "tab": "insights",
+      "pass": true,
+      "screenshot": "1536x864_s1.25_insights.png",
+      "check": {
+        "tab": "insights",
+        "viewportW": 1536,
+        "viewportH": 864,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 627
+      }
+    },
+    {
+      "resolution": "1536x864",
+      "scale": 1.25,
+      "tab": "settings",
+      "pass": true,
+      "screenshot": "1536x864_s1.25_settings.png",
+      "check": {
+        "tab": "settings",
+        "viewportW": 1536,
+        "viewportH": 864,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 1547
+      }
+    },
+    {
+      "resolution": "1536x864",
+      "scale": 1.5,
+      "tab": "focus",
+      "pass": true,
+      "screenshot": "1536x864_s1.5_focus.png",
+      "check": {
+        "tab": "focus",
+        "viewportW": 1536,
+        "viewportH": 864,
+        "islandBottom": 352.890625,
+        "islandHeight": 352.890625,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 251
+      }
+    },
+    {
+      "resolution": "1536x864",
+      "scale": 1.5,
+      "tab": "tasks",
+      "pass": true,
+      "screenshot": "1536x864_s1.5_tasks.png",
+      "check": {
+        "tab": "tasks",
+        "viewportW": 1536,
+        "viewportH": 864,
+        "islandBottom": 339.921875,
+        "islandHeight": 339.921875,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 522
+      }
+    },
+    {
+      "resolution": "1536x864",
+      "scale": 1.5,
+      "tab": "habits",
+      "pass": true,
+      "screenshot": "1536x864_s1.5_habits.png",
+      "check": {
+        "tab": "habits",
+        "viewportW": 1536,
+        "viewportH": 864,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 435
+      }
+    },
+    {
+      "resolution": "1536x864",
+      "scale": 1.5,
+      "tab": "wellbeing",
+      "pass": true,
+      "screenshot": "1536x864_s1.5_wellbeing.png",
+      "check": {
+        "tab": "wellbeing",
+        "viewportW": 1536,
+        "viewportH": 864,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 977
+      }
+    },
+    {
+      "resolution": "1536x864",
+      "scale": 1.5,
+      "tab": "insights",
+      "pass": true,
+      "screenshot": "1536x864_s1.5_insights.png",
+      "check": {
+        "tab": "insights",
+        "viewportW": 1536,
+        "viewportH": 864,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 627
+      }
+    },
+    {
+      "resolution": "1536x864",
+      "scale": 1.5,
+      "tab": "settings",
+      "pass": true,
+      "screenshot": "1536x864_s1.5_settings.png",
+      "check": {
+        "tab": "settings",
+        "viewportW": 1536,
+        "viewportH": 864,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 1547
+      }
+    },
+    {
+      "resolution": "1920x1080",
+      "scale": 1,
+      "tab": "focus",
+      "pass": true,
+      "screenshot": "1920x1080_s1_focus.png",
+      "check": {
+        "tab": "focus",
+        "viewportW": 1920,
+        "viewportH": 1080,
+        "islandBottom": 352.84375,
+        "islandHeight": 352.84375,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 251
+      }
+    },
+    {
+      "resolution": "1920x1080",
+      "scale": 1,
+      "tab": "tasks",
+      "pass": true,
+      "screenshot": "1920x1080_s1_tasks.png",
+      "check": {
+        "tab": "tasks",
+        "viewportW": 1920,
+        "viewportH": 1080,
+        "islandBottom": 339.90625,
+        "islandHeight": 339.90625,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 522
+      }
+    },
+    {
+      "resolution": "1920x1080",
+      "scale": 1,
+      "tab": "habits",
+      "pass": true,
+      "screenshot": "1920x1080_s1_habits.png",
+      "check": {
+        "tab": "habits",
+        "viewportW": 1920,
+        "viewportH": 1080,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 435
+      }
+    },
+    {
+      "resolution": "1920x1080",
+      "scale": 1,
+      "tab": "wellbeing",
+      "pass": true,
+      "screenshot": "1920x1080_s1_wellbeing.png",
+      "check": {
+        "tab": "wellbeing",
+        "viewportW": 1920,
+        "viewportH": 1080,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 977
+      }
+    },
+    {
+      "resolution": "1920x1080",
+      "scale": 1,
+      "tab": "insights",
+      "pass": true,
+      "screenshot": "1920x1080_s1_insights.png",
+      "check": {
+        "tab": "insights",
+        "viewportW": 1920,
+        "viewportH": 1080,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 627
+      }
+    },
+    {
+      "resolution": "1920x1080",
+      "scale": 1,
+      "tab": "settings",
+      "pass": true,
+      "screenshot": "1920x1080_s1_settings.png",
+      "check": {
+        "tab": "settings",
+        "viewportW": 1920,
+        "viewportH": 1080,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 1547
+      }
+    },
+    {
+      "resolution": "1920x1080",
+      "scale": 1.25,
+      "tab": "focus",
+      "pass": true,
+      "screenshot": "1920x1080_s1.25_focus.png",
+      "check": {
+        "tab": "focus",
+        "viewportW": 1920,
+        "viewportH": 1080,
+        "islandBottom": 352.84375,
+        "islandHeight": 352.84375,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 251
+      }
+    },
+    {
+      "resolution": "1920x1080",
+      "scale": 1.25,
+      "tab": "tasks",
+      "pass": true,
+      "screenshot": "1920x1080_s1.25_tasks.png",
+      "check": {
+        "tab": "tasks",
+        "viewportW": 1920,
+        "viewportH": 1080,
+        "islandBottom": 339.9375,
+        "islandHeight": 339.9375,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 522
+      }
+    },
+    {
+      "resolution": "1920x1080",
+      "scale": 1.25,
+      "tab": "habits",
+      "pass": true,
+      "screenshot": "1920x1080_s1.25_habits.png",
+      "check": {
+        "tab": "habits",
+        "viewportW": 1920,
+        "viewportH": 1080,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 435
+      }
+    },
+    {
+      "resolution": "1920x1080",
+      "scale": 1.25,
+      "tab": "wellbeing",
+      "pass": true,
+      "screenshot": "1920x1080_s1.25_wellbeing.png",
+      "check": {
+        "tab": "wellbeing",
+        "viewportW": 1920,
+        "viewportH": 1080,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 977
+      }
+    },
+    {
+      "resolution": "1920x1080",
+      "scale": 1.25,
+      "tab": "insights",
+      "pass": true,
+      "screenshot": "1920x1080_s1.25_insights.png",
+      "check": {
+        "tab": "insights",
+        "viewportW": 1920,
+        "viewportH": 1080,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 627
+      }
+    },
+    {
+      "resolution": "1920x1080",
+      "scale": 1.25,
+      "tab": "settings",
+      "pass": true,
+      "screenshot": "1920x1080_s1.25_settings.png",
+      "check": {
+        "tab": "settings",
+        "viewportW": 1920,
+        "viewportH": 1080,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 1547
+      }
+    },
+    {
+      "resolution": "1920x1080",
+      "scale": 1.5,
+      "tab": "focus",
+      "pass": true,
+      "screenshot": "1920x1080_s1.5_focus.png",
+      "check": {
+        "tab": "focus",
+        "viewportW": 1920,
+        "viewportH": 1080,
+        "islandBottom": 353.5,
+        "islandHeight": 353.5,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 251
+      }
+    },
+    {
+      "resolution": "1920x1080",
+      "scale": 1.5,
+      "tab": "tasks",
+      "pass": true,
+      "screenshot": "1920x1080_s1.5_tasks.png",
+      "check": {
+        "tab": "tasks",
+        "viewportW": 1920,
+        "viewportH": 1080,
+        "islandBottom": 339.921875,
+        "islandHeight": 339.921875,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 522
+      }
+    },
+    {
+      "resolution": "1920x1080",
+      "scale": 1.5,
+      "tab": "habits",
+      "pass": true,
+      "screenshot": "1920x1080_s1.5_habits.png",
+      "check": {
+        "tab": "habits",
+        "viewportW": 1920,
+        "viewportH": 1080,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 435
+      }
+    },
+    {
+      "resolution": "1920x1080",
+      "scale": 1.5,
+      "tab": "wellbeing",
+      "pass": true,
+      "screenshot": "1920x1080_s1.5_wellbeing.png",
+      "check": {
+        "tab": "wellbeing",
+        "viewportW": 1920,
+        "viewportH": 1080,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 977
+      }
+    },
+    {
+      "resolution": "1920x1080",
+      "scale": 1.5,
+      "tab": "insights",
+      "pass": true,
+      "screenshot": "1920x1080_s1.5_insights.png",
+      "check": {
+        "tab": "insights",
+        "viewportW": 1920,
+        "viewportH": 1080,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 627
+      }
+    },
+    {
+      "resolution": "1920x1080",
+      "scale": 1.5,
+      "tab": "settings",
+      "pass": true,
+      "screenshot": "1920x1080_s1.5_settings.png",
+      "check": {
+        "tab": "settings",
+        "viewportW": 1920,
+        "viewportH": 1080,
+        "islandBottom": 340,
+        "islandHeight": 340,
+        "isClippedByViewport": false,
+        "isScrollable": true,
+        "viewOpacity": "1",
+        "contentLength": 1547
+      }
+    }
+  ]
+}

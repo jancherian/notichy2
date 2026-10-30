@@ -1,0 +1,5 @@
+/*
+  Permissions-Policy: camera=(self)
+/*.wasm
+  Content-Type: application/wasm
+

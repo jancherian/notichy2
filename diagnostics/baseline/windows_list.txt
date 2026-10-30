@@ -1,0 +1,37 @@
+Matching PIDs: 25732, 3940, 4264, 17988, 30288, 9588, 23236, 28312, 15440, 28764, 12220
+
+=== ALL WINDOWS OWNED BY NOTCH / WEBVIEW2 ===
+
+  PID Process        Title                       ClassName                    Visible Rect               Hwnd     
+  --- -------        -----                       ---------                    ------- ----               ----     
+25732 notch          Notch                       Tauri Window                    True 128,128 (520x170)  0x1D0B64 
+25732 notch          Mochi                       Tauri Window                    True 77,77 (133x120)    0x4C0392 
+ 3940 msedgewebview2 Tooltip                     Touch Tooltip Window           False 0,0 (0x0)          0x190824 
+ 3940 msedgewebview2                             UAC_InputIndicatorOverlayWnd    True 1447,775 (50x50)   0x38058A 
+ 3940 msedgewebview2                             UAC Input Indicator             True 1447,775 (50x50)   0xA0B74  
+25732 notch          Notch                       Tauri Window                    True 408,0 (720x380)    0x5902FC 
+ 3940 msedgewebview2                             WorkerW                        False 0,0 (133x38)       0x120B5E 
+17988 msedgewebview2                             Chrome_WidgetWin_0             False 0,0 (0x0)          0x100CE6 
+17988 msedgewebview2                             Chrome_WidgetWin_0             False 0,0 (0x0)          0x310CAA 
+ 3940 msedgewebview2                             Chrome_WidgetWin_0             False 0,0 (0x0)          0xD0A9E  
+17988 msedgewebview2                             Chrome_WidgetWin_0             False 0,0 (0x0)          0x1E00A26
+17988 msedgewebview2                             Chrome_WidgetWin_0             False 0,0 (0x0)          0x5F0D4C 
+25732 notch          Notch                       Tauri Window                   False 210,33 (1114x758)  0x90D24  
+25732 notch                                      tray_icon_app                  False 26,26 (1152x592)   0x3D0BA4 
+ 3940 msedgewebview2                             Chrome_WidgetWin_0             False 128,128 (1152x592) 0x80AB4  
+ 3940 msedgewebview2                             Base_PowerMessageWindow        False 0,0 (0x0)          0x160A8E 
+ 4264 msedgewebview2                             crashpad_SessionEndWatcher     False 0,0 (136x39)       0x1E0A32 
+25732 notch                                      global_hotkey_app              False 77,77 (1152x592)   0x540CC6 
+25732 notch                                      Tao Thread Event Target         True 0,0 (14x14)        0xA507E0 
+ 3940 msedgewebview2                             CicLoaderWndClass              False 0,0 (133x38)       0xB0AA8  
+ 3940 msedgewebview2 CiceroUIWndFrame            CiceroUIWndFrame               False 160,160 (160x160)  0x340B5A 
+ 3940 msedgewebview2 TF_FloatingLangBar_WndTitle CiceroUIWndFrame               False 1386,0 (40x21)     0x5A0B52 
+ 3940 msedgewebview2 Default IME                 IME                            False 0,0 (0x0)          0x6E0DA8 
+25732 notch          Default IME                 IME                            False 0,0 (0x0)          0xA0A90  
+25732 notch          MSCTFIME UI                 MSCTFIME UI                    False 0,0 (0x0)          0x1D0B94 
+ 3940 msedgewebview2 Default IME                 IME                            False 0,0 (0x0)          0xA0AAC  
+ 3940 msedgewebview2 MSCTFIME UI                 MSCTFIME UI                    False 0,0 (0x0)          0x550C2C 
+17988 msedgewebview2 Default IME                 IME                            False 0,0 (0x0)          0x1F0D50 
+ 4264 msedgewebview2 Default IME                 IME                            False 0,0 (0x0)          0x260A82 
+
+

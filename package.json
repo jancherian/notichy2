@@ -1,0 +1,24 @@
+{
+  "name": "ergonotch",
+  "version": "1.0.4",
+  "description": "> **An ambient Windows desktop companion for deep focus, physical ergonomics, and daily wellbeing.**   > Lives quietly at the top of your screen as a translucent dark island. 100% offline, zero telemetry, local-first.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jancherian/ergonotch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jancherian/ergonotch/issues"
+  },
+  "homepage": "https://github.com/jancherian/ergonotch#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1"
+  }
+}
