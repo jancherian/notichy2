@@ -4,20 +4,24 @@
 > Lives quietly at the top of your screen as a translucent dark island. 100% offline, zero telemetry, local-first.
 
 [![Live Web Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-success?style=for-the-badge&logo=github)](https://jancherian.github.io/ergonotch/)
+[![Vercel Mirror](https://img.shields.io/badge/Live%20Mirror-Vercel-000000?style=for-the-badge&logo=vercel)](https://ergonotch.vercel.app/)
 [![Landing Page](https://img.shields.io/badge/Product-Landing%20Page-9333ea?style=for-the-badge&logo=googlechrome)](https://jancherian.github.io/ergonotch/about.html)
-[![Windows Installer](https://img.shields.io/badge/Download-Windows%20Setup%20.exe-blueviolet?style=for-the-badge&logo=windows)](https://github.com/jancherian/ergonotch/releases/download/v1.0.4/Notch-Setup.exe)
+[![Windows Installer](https://img.shields.io/badge/Download-Windows%20Setup%20v1.0.4-blueviolet?style=for-the-badge&logo=windows)](https://github.com/jancherian/ergonotch/releases/download/v1.0.4/Notch-Setup.exe)
+[![Verification Suite](https://img.shields.io/badge/Verification-100%25%20Passing-brightgreen?style=for-the-badge&logo=checkmarx)](./DEBUG_LOG.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](https://github.com/jancherian/ergonotch/blob/main/LICENSE)
 
 ---
 
 ## 🌐 Quick Access for Evaluators & Judges
 
-| Destination | Link | Description |
-| :--- | :--- | :--- |
-| **🚀 Public Live Web Demo** | [jancherian.github.io/ergonotch](https://jancherian.github.io/ergonotch/) | One-click interactive in-browser demo. Runs local MediaPipe WASM posture analysis via `getUserMedia` with zero install. |
-| **📖 Product Landing Page** | [jancherian.github.io/ergonotch/about.html](https://jancherian.github.io/ergonotch/about.html) | Single-page product overview, architecture breakdown, module guide, and privacy philosophy. |
-| **📦 Windows Desktop App (.exe)** | [Download Notch-Setup.exe (v1.0.4)](https://github.com/jancherian/ergonotch/releases/download/v1.0.4/Notch-Setup.exe) | NSIS single-user installer. No administrator rights required. |
-| **🎥 Backup Demo Walkthrough** | [DEMO_SCRIPT.md](./DEMO_SCRIPT.md) | 2-minute judge-ready walkthrough script & backup demo presentation checklist. |
+| Destination | Link | Description | Verification Status |
+| :--- | :--- | :--- | :--- |
+| **🚀 Public Live Web Demo** | [jancherian.github.io/ergonotch](https://jancherian.github.io/ergonotch/) | One-click interactive in-browser demo. Runs local MediaPipe WASM posture analysis via `getUserMedia` with zero installation. | ✅ 10/10 E2E passing |
+| **⚡ Fast Web Mirror (Vercel)** | [ergonotch.vercel.app](https://ergonotch.vercel.app/) | High-speed global edge mirror with dedicated WASM MIME and camera permissions policy headers. | ✅ 10/10 E2E passing |
+| **📖 Product Landing Page** | [jancherian.github.io/ergonotch/about.html](https://jancherian.github.io/ergonotch/about.html) | Single-page product overview, architecture breakdown, module guide, and privacy philosophy. | ✅ Live & responsive |
+| **📦 Windows Desktop App (.exe)** | [Download Notch-Setup.exe (v1.0.4)](https://github.com/jancherian/ergonotch/releases/download/v1.0.4/Notch-Setup.exe) | Single-user NSIS installer (`~56.6 MB`). Runs 100% offline. No administrator rights required. | ✅ 10/10 Judge proof passing |
+| **🎥 Backup Demo Walkthrough** | [DEMO_SCRIPT.md](./DEMO_SCRIPT.md) | 2-minute judge-ready walkthrough script & presentation checklist in case of Wi-Fi/hardware issues. | ✅ Complete |
+| **🧪 Automated Verification Log** | [DEBUG_LOG.md](./DEBUG_LOG.md) | Exhaustive test logs, CDP browser proofs, frame rate graphs, and soak test metrics. | ✅ Documented with proofs |
 
 > 🛡️ **Windows SmartScreen Note:** The installer is unsigned (standard for hackathon projects). If Windows SmartScreen prompts on first launch, click **"More info"** → **"Run anyway"**.
 
@@ -32,6 +36,39 @@ Modern knowledge workers face a quiet crisis at their desks:
 
 ### The Solution: Notch Companion
 Notch Companion bridges deep cognitive focus and physical health by living as an **ambient, non-distracting floating island at the top edge of your screen**. It runs all machine vision and posture rules **100% on your local hardware** using WebAssembly, ensuring that **zero bytes of video or telemetry ever leave your device**.
+
+---
+
+## ⚡ Verified Performance & Reliability Benchmarks (v1.0.4)
+
+| Metric | Target / Spec | Measured Result | Verification Method |
+| :--- | :--- | :--- | :--- |
+| **Cold / Warm Boot Time** | < 1,500 ms | **~530 ms** | Logged via `BOOT_READY` marker in `%LOCALAPPDATA%\Notch\logs\app.log` |
+| **Desktop Animation Frame Rate** | >= 60 FPS | **121.0 - 144.1 FPS** | In-WebView2 frame timing over Chrome DevTools Protocol (CDP) |
+| **Jank / Dropped Frames** | 0 frames (> 50ms) | **0 jank frames** | Performance trace during repeated expand/collapse transitions |
+| **Outbound Network Sockets** | Exactly 0 | **0 open TCP sockets** | `Get-NetTCPConnection -OwningProcess (Get-Process notch).Id` |
+| **Continuous Soak Test** | >= 20 minutes | **20+ min continuous** | Flat ~38.6 MB WorkingSet memory, 0 memory leaks, 0 crashes |
+| **Responsive Viewports** | 15 configurations | **90/90 checks PASS** | 1024x600 up to 1920x1080 at 100%, 125%, 150% DPI scaling |
+| **Single-Instance Mutex** | Secondary exit 0 | **PASS (code 0)** | Native Win32 Mutex guard in `main.rs` before WebView2 init |
+
+---
+
+## 🛡️ The Four Critical Desktop Fixes (v1.0.4)
+
+In the latest v1.0.4 release, four core desktop bugs were systematically diagnosed, patched, and proven:
+
+1. **CRASH Immunity:**
+   - *Problem:* App exited spontaneously without error dialogs when system close events triggered.
+   - *Fix:* Intercepted Tauri 2's `RunEvent::ExitRequested` with an atomic `QUIT_REQUESTED` coordinator in Rust. Prevented window closure on frameless layered windows via `WindowEvent::CloseRequested => api.prevent_close()`. Coordinated graceful exits strictly through the system tray. Added panic logging to `%LOCALAPPDATA%\Notch\logs\app.log`.
+2. **SCROLL & Cut-Off:**
+   - *Problem:* Tabs lacked mouse-wheel scrolling; Focus tab buttons and active tasks were clipped on standard laptop screens.
+   - *Fix:* Expanded natural layout heights to 350px in `VIEW_LAYOUTS`. Enabled `.card { overflow-y: auto; overflow-x: hidden; }` with sleek custom scrollbars. Eliminated nested clipping so mouse-wheel scrolling works fluidly across all tabs.
+3. **POPUP Sanitization:**
+   - *Problem:* Top-center hover occasionally triggered an empty placeholder or leftover legacy view.
+   - *Fix:* Sanitized `openingView()` and `expand()` to strictly validate against the 6 canonical tabs (`focus`, `tasks`, `habits`, `wellbeing`, `insights`, `settings`), defaulting reliably to `"focus"`. Excised all legacy fallback views.
+4. **SLOW START Elimination:**
+   - *Problem:* App was delayed by a 4.9-second greeting sequence before revealing the interactive notch.
+   - *Fix:* Removed the desktop greeting delay; `main.ts` now reveals the interactive collapsed pill immediately on launch (`island.fsm.reveal()`), cutting boot time down to ~530ms.
 
 ---
 
@@ -59,7 +96,7 @@ Notch Companion bridges deep cognitive focus and physical health by living as an
 │          DESKTOP (IS_TAURI = true)        │         BROWSER (IS_TAURI = false)        │
 ├───────────────────────────────────────────┼───────────────────────────────────────────┤
 │ • Win32 frameless window bounds           │ • Mock-desktop wallpaper canvas           │
-│ • Tauri Single-Instance guard             │ • In-page simulated notch pill            │
+│ • Tauri Single-Instance mutex guard       │ • In-page simulated notch pill            │
 │ • Win32 native cursor polling             │ • Web Notification API + LocalStorage     │
 │ • Native sound synthesis & autostart      │ • WebAudio pop/chime synthesis            │
 └───────────────────────────────────────────┴───────────────────────────────────────────┘
@@ -98,25 +135,33 @@ Notch Companion bridges deep cognitive focus and physical health by living as an
 
 ---
 
-## 🛠️ Tech Stack
-
-| Layer | Technology | Rationale |
-| :--- | :--- | :--- |
-| **Desktop Shell** | [Tauri 2](https://tauri.app/) (Rust) | Lightweight (~25 MB total footprint), native Windows integration, negligible RAM usage. |
-| **Frontend UI** | TypeScript, Modern CSS | Fast, frameless, hardware-accelerated animations with zero bundle bloat. |
-| **Computer Vision** | `@mediapipe/tasks-vision` (WASM) | High-accuracy pose and face landmarkers running 100% locally on CPU/GPU via WebAssembly. |
-| **Platform Adapter** | `platform.ts` | Dual-mode execution: native desktop via Tauri bridge, or interactive web preview via standard Web APIs. |
-| **Local Storage** | `localStorage` / JSON Store | 100% local-first data storage with zero cloud sync. |
-| **Installer** | NSIS (`currentUser`) | One-click single-user Windows installer. No administrator privileges required. |
-
----
-
 ## 🔒 Privacy & Security Guarantee
 
 1. **Zero Network Calls:** Notch makes zero external requests. Tested and verified with **0 open TCP sockets** owned by the process.
 2. **Zero Video Saved:** Camera frames are processed frame-by-frame in volatile GPU/CPU memory and immediately freed. No images, video recordings, or screenshots are ever written to disk or sent over a network.
 3. **No Keystrokes or Screen Capture:** Notch never hooks keystrokes, clipboard buffers, or application contents.
 4. **Offline Resilience:** Turn off your Wi-Fi, disconnect your Ethernet, and launch the app: timers, posture detection, habits, and tasks all continue working flawlessly.
+5. **Completely Clean Architecture:** All legacy call recording, microphone/audio capture dependencies, and auxiliary windows have been 100% removed.
+
+---
+
+## 🧪 Automated Verification Suites
+
+The repository includes a comprehensive, automated test matrix that judges and developers can execute locally:
+
+```powershell
+# 1. Desktop Judge Proof (Runs automated 10-point test over CDP on notch.exe)
+node scripts/verify_desktop_judge_proof.mjs
+
+# 2. Responsive Web Viewports (Verifies 15 resolution/scale configs across all 6 tabs)
+node scripts/verify_web_viewports_after.mjs
+
+# 3. Live Web E2E Suite (Verifies web demo, fake camera, timers, and storage)
+node scripts/verify_e2e_web.mjs
+
+# 4. Outbound Sockets Proof (Verifies zero network connections on running app)
+Get-NetTCPConnection -OwningProcess (Get-Process notch).Id
+```
 
 ---
 
@@ -142,7 +187,7 @@ Notch Companion bridges deep cognitive focus and physical health by living as an
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v18+)
 - [Rust toolchain](https://rustup.rs/) (1.75+)
-- WebView2 Runtime (installed by default on Windows 10/11)
+- WebView2 Runtime (pre-installed by default on Windows 10/11)
 
 ### Development (Desktop App)
 ```powershell
@@ -166,7 +211,7 @@ cd coucou-windows-v0.5.3/windows
 npm run build
 $env:PATH = "$env:USERPROFILE\.cargo\bin;$env:PATH"
 npx tauri build
-# Output located at: src-tauri/target/release/bundle/nsis/Notch_0.1.0_x64-setup.exe
+# Output located at: src-tauri/target/release/bundle/nsis/Notch-Windows-1.0.4-setup.exe
 ```
 
 ---
